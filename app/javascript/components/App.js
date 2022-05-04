@@ -6,7 +6,7 @@ import Airline from './Airline/Airline'
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={Airlines}/>
+      <Route path="*" element={Airlines}/>
       <Route path="/airlines/:slug" element={Airline}/>
     </Routes>
   )
